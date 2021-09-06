@@ -7,9 +7,9 @@ Twitter site cloned using react js and tailwind css.
 ## Project setup
 Clone the repo locally:
 ```sh
-git clone madiou84/clone-twitter-react-tailwind-css.git
+git clone https://github.com/madiou84/clone-twitter-react-tailwind-css.git clone-twitter-react-tailwind-css
 
-cd madiou84/clone-twitter-react-tailwind-css
+cd clone-twitter-react-tailwind-css
 ```
 
 ## Installation
