@@ -2,7 +2,7 @@
                                                                                   
 Twitter site cloned using react js and tailwind css.                                
                                                                                   
-![](https://raw.githubusercontent.com/madiou84/madiou84/clone-twitter-react-tailwind-css/master/screenshot.png)                                                              
+![](https://raw.githubusercontent.com//madiou84/clone-twitter-react-tailwind-css/master/screenshot.png)                                                              
                                                                                   
 ## Project setup
 Clone the repo locally:
