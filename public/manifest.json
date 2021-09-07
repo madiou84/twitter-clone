@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Clone Twitter Using Tailwindcss and Reactjs",
+  "name": "Twitter site cloned using react js and tailwind css",
   "icons": [
     {
       "src": "favicon.ico",

@@ -47,7 +47,7 @@ function CreateTweetForm() {
                     placeholder="Quoi de neuf ? "
                     className="w-full inline-block p-2 resize-none overflow-hidden bg-black focus:outline-none"
                 ></textarea>
-        
+
             </form>
             <div className="border-b border-secondary-400 border-opacity-20">
                 <p className="text-primary-300 hover:bg-primary-400 hover:bg-opacity-10 px-2 py-3 inline-block rounded-xl cursor-pointer">
@@ -96,20 +96,20 @@ function PostContent() {
         </p>
 
         <div className="w-full h-72 mt-4">
-            <img 
+            <img
                 alt=""
                 className="w-full h-full object-cover rounded-3xl border border-opacity-20"
-                src="https://pbs.twimg.com/media/E-a94IuX0AIwFui?format=jpg&name=small" 
+                src="https://pbs.twimg.com/media/E-a94IuX0AIwFui?format=jpg&name=small"
             />
         </div>
     </div>
 }
 
 function ImageProfilePost() {
-    return <img 
+    return <img
         alt=""
         className="w-12 h-12 rounded-full"
-        src="https://pbs.twimg.com/profile_images/1432334305259401216/3N4bCQcs_400x400.jpg" 
+        src="https://pbs.twimg.com/profile_images/1432334305259401216/3N4bCQcs_400x400.jpg"
     />
 }
 
@@ -120,11 +120,11 @@ function PostReactions() {
             <span className="ml-2">79</span>
         </div>
         <div className="flex items-center cursor-pointer">
-            <Icon name="retweet" className="w-4 h-5" /> 
+            <Icon name="retweet" className="w-4 h-5" />
             <span className="ml-2">222</span>
         </div>
         <div className="flex items-center cursor-pointer">
-            <HeartIcon className="w-4 h-5" /> 
+            <HeartIcon className="w-4 h-5" />
             <span className="ml-2">3,8 k</span>
         </div>
         <div className="flex items-center cursor-pointer">
@@ -146,9 +146,9 @@ export function MainContent ({ className }) {
 
             <div className="">
                 <CreateTweetForm/>
-                
+
                 <BorderBottom/>
-                
+
                 {data.map(item => {
                     return <div className="" key={item}>
                         <div className="px-4 py-2 flex">
@@ -160,7 +160,7 @@ export function MainContent ({ className }) {
                                 <PostReactions/>
                             </div>
                         </div>
-                        
+
                         <BorderBottom/>
                     </div>
                 })}
@@ -195,7 +195,7 @@ export function SidebarLeft ({ className }) {
                         </button>
                     </div>
                 </div>
-            
+
                 <ButtonProfileBottom className="absolute bottom-5 right-20"/>
             </div>
         </div>
@@ -235,13 +235,13 @@ export function SidebarRight ({ className }) {
     ]
     const users = [
         {
-            tag: '@haassaanvv',
-            name: 'Haassnaa Barrie',
-            url: 'https://pbs.twimg.com/profile_images/1430685700396048390/LEG4rw9A_normal.jpg'
+            tag: '@Marialagentille',
+            name: 'Mariama Bah',
+            url: '/image1.jpg'
         }, {
-            tag: '@noumou29',
-            name: 'Noumou 🇬🇳',
-            url: 'https://pbs.twimg.com/profile_images/1396813424013742087/rjBZr-Lh_normal.jpg'
+            tag: '@m19bah',
+            name: 'Madiou Samantan',
+            url: '/image2.jpg'
         }
     ]
 
@@ -282,7 +282,7 @@ export function SidebarRight ({ className }) {
                         </span>
                     </div>
 
-                    <DotsHorizontalIcon 
+                    <DotsHorizontalIcon
                         className="w-5 h-5"
                     />
                 </div>)}
@@ -291,7 +291,7 @@ export function SidebarRight ({ className }) {
                     <a href="#" className="text-primary-600">Voir plus</a>
                 </div>
             </div>
-        
+
             <div className="bg-default-500 text-gray-300 my-4 py-2 rounded-2xl">
                 <h3 className="text-xl font-bold px-4 pb-2">
                     Suggestions
@@ -323,7 +323,7 @@ export function SidebarRight ({ className }) {
                     <a href="#" className="text-primary-600">Voir plus</a>
                 </div>
             </div>
-    
+
         </div>
     </div>
 }
